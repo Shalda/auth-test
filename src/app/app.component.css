@@ -1,0 +1,24 @@
+a{
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 20px;
+  font-family: sans-serif;;
+}
+.container{
+  width: 1024px;
+  margin: 20px auto;
+  display: flex;
+
+}
+.aws{
+  background-color: #00a4b4;
+}
+.google{
+  background-color: #1a73e8;
+}
+.aws:hover, .google:hover {
+  background-color: salmon;
+  color: white;
+}
